@@ -1,0 +1,14 @@
+.row{
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #656565;
+    border-radius: 40px;
+    color: aliceblue;
+}
+li,p{
+    color: aliceblue;
+}
+h1,h3{
+    display: inline;
+}

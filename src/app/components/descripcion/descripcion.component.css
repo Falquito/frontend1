@@ -1,0 +1,45 @@
+.row{
+    padding: 20px;
+}
+/*modifico el estilo de mi foto de perfil*/
+@media(min-width:576px){
+    #ftperfil{
+        border-radius: 100%;
+        width: 15%;
+        top:600px;
+        left:3%;
+        position: absolute;
+        }
+}
+@media(min-width:1150px){
+    #ftperfil{
+        border-radius: 100%;
+        width: 15%;
+        top:800px;
+        left:3%;
+        position: absolute;
+        }
+}
+@media(max-width:575px){
+    #ftperfil{
+        border-radius: 100%;
+        width: 40%;
+        top:665px;
+        left:30%;
+        position: absolute;
+        }
+}
+.acerca{
+    text-align: center;
+    color: aliceblue;
+}
+#name{
+    font-weight: bold;
+}
+#imgucasal{
+    width: 50%;
+}
+.barra{
+    border-radius: 150px;
+    background-color: #656565;
+}
