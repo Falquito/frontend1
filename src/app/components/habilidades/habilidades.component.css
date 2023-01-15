@@ -7,3 +7,8 @@
     margin-top: 20px;
     color: aliceblue;
 }
+.circulito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,13 +1,15 @@
 <div class="row">
     <div class="container">
         <div class="logoarriba">
-            <img src="../../../assets/hacker.png" id="logo">
+            <img src="../../../assets/argprogramalogo.png" id="logo">
         </div>
         <div class="social">
-                <a href=""><img src="../../../assets/facebook.png" id="facebook"></a>
-                <a href=""><img src="../../../assets/instagram.png" id="instagram"></a>
-                <a href=""><img src="../../../assets/linkedin.png" id="linkedin"></a>
-                <button type="button" class="btn btn-outline-primary">Login</button>
+                <a href="https://www.facebook.com/joel.capito.399/" target="_blank"><img src="../../../assets/facebook.png" id="facebook"></a>
+                <a href="https://www.instagram.com/j0elxd/" target="_blank"><img src="../../../assets/instagram.png" id="instagram"></a>
+                <a href="https://www.linkedin.com/in/joel-serrudo-463731234/" target="_blank"><img src="../../../assets/linkedin.png" id="linkedin"></a>
+                <a href="https://github.com/Falquito" target="_blank"><img src="../../../assets/github-sign.png" id="github"></a>
+                <button type="button" class="btn btn-outline-primary" (click)="login()" *ngIf="!isLogged">Login</button>
+                <button type="button" class="btn btn-outline-primary" (click)="onLogOut()" *ngIf="isLogged">Cerrar Sesion</button>
         </div>
     </div>
 </div>
